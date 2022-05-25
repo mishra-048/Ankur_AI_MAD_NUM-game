@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     int []score={-1,-1,-1}; //score of each match is updated in this array. A total of three matches in a game
     String operators[]={"+","-","*","/"};
     int correctButton= 0;//which button will have the correct answer (tag of that button)
-    Random random=new Random(); //You will generate randdom alegebra questions
+    Random random=new Random(); //You will generate random alegebra questions
     TextView textView2;
     Button button1,button2,button3,button4;
     public void load(View view){
@@ -124,9 +124,9 @@ public class MainActivity extends AppCompatActivity {
             button3.setText(Integer.toString(correctans-3));
             button4.setText(Integer.toString(correctans));
         }
-        // Your code here, to diplay correct and incorrect options on the buttons
+        // Your code here, to display correct and incorrect options on the buttons
 
-        if(matchCounter==3){    // if three matches are completed updatee the perfomrance in sharedpreferences
+        if(matchCounter==3){    // if three matches are completed update the performance in sharedpreferences
 
             matchCounter=0;
 
@@ -174,7 +174,7 @@ public class MainActivity extends AppCompatActivity {
         else if(slope>5.0)
             return "Your getting better with time";
 
-//        return "Your Interpretation";
+        //return "Your Interpretation";
         return s;
 
     }
