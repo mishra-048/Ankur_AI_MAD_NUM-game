@@ -30,5 +30,6 @@ be performance values. The getSlope method is a static method, so you won't need
 </ul>
 <br />
 We are assigining the answer in any of the 4 button , and rest button are left for the random answer.
+<br />If the user hits the correct button then the score increases.
 <br />
 The code is completed .
