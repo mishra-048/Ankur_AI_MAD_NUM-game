@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void newMatch() {  //A game is composed of three matches
-
+// Logic and code for the button and the correct answer
         int operand1 = random.nextInt(10);
         int operand2=random.nextInt(10);
         //check is operand2 is not zero; otherwise in case of division-divide by zero error will come
