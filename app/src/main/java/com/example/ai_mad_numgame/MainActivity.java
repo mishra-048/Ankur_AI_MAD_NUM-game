@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
         newMatch();
     }
     @Override
+//    The oncreate method
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
