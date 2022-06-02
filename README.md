@@ -29,4 +29,6 @@ be performance values. The getSlope method is a static method, so you won't need
 <li><b>getInterpretation</b> method returns a string based on the analysis of slope obtained from analysis of past six performances.</li>
 </ul>
 <br />
+We are assigining the answer in any of the 4 button , and rest button are left for the random answer.
+<br />
 The code is completed .
